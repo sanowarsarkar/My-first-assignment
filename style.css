@@ -5,9 +5,15 @@
 }
 
 
-.all-btn {
-
+.all-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    color: white;
 }
+
+
 
 body{
     width: 90%;
@@ -95,9 +101,40 @@ body{
 }
 
 
+.box-Pila h4{
+    margin: 35px 0px;
+    font-size: 40px;
+    font-family: bold;
+    color: #0E0E0E;
+}
+.box-pare{
+    display: flex;
+    gap: 24px;
+}
+
+.box-Pila-chi {
+    background-color: white;
+    border-radius: 15px;
+}
 
 
+.all-box-chi {
+    margin: 22px;
+}
 
+.all-box-chi h2 {
+    font-size: 20px;
+    font-family: bold;
+    margin: 7px 0px;
+}
 
+.box-Pila p {
+    margin-bottom: 26px;
+    color: #0e0e0e8f;
+}
 
-
+.all-btn:hover{
+    background-color: #006A50;
+    color: white;
+    transition: all 0.3s;
+}
