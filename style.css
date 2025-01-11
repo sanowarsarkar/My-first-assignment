@@ -68,7 +68,7 @@ body{
 }
 
 .hero-chi p {
-    color: #0e0e0e8f;
+    color: #555;
     font-family: bold;
     font-size: 16px;
 }
@@ -130,7 +130,7 @@ body{
 
 .box-Pila p {
     margin-bottom: 26px;
-    color: #0e0e0e8f;
+    color: #555;
 }
 
 .Digital-btn {
@@ -170,4 +170,33 @@ body{
 .Modern-btn:hover{
     background-color: #ffc439c2;
     transition: background-color 0.3s ease;
+}
+
+
+.Dr-pare {
+    height: 199px;
+    width: auto;
+    background-color: #FFFFFF;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.Dr-chi {
+    margin: 12px;
+}
+
+.Dr-chi img {
+    margin: 18px 20px;
+}
+
+.h4-p-chi {
+    margin: -67px 9px;
+    color: #555;
+    padding: 10px;
+    /* letter-spacing: 2px; */
+}
+
+.Dr-chi h4 {
+    margin: 20px 0px;
+    color: rgba(0, 0, 0, 0.685);
 }
