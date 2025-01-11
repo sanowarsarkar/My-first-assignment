@@ -133,8 +133,41 @@ body{
     color: #0e0e0e8f;
 }
 
-.all-btn:hover{
-    background-color: #006A50;
+.Digital-btn {
+    padding: 10px 20px;
+    background-color:#5490F5;
+    border: none;
     color: white;
-    transition: all 0.3s;
+    border-radius: 8px;
+}
+
+.Digital-btn:hover{
+    background-color: #548ff5cc;
+    transition: background-color 0.3s ease;
+}
+
+.Green-btn {
+    padding: 10px 20px;
+    background-color:#09A15C;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.Green-btn:hover{
+    background-color: #09a15dcb;
+    transition: background-color 0.3s ease;
+}
+
+.Modern-btn {
+    padding: 10px 20px;
+    background-color:#FFC239;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.Modern-btn:hover{
+    background-color: #ffc439c2;
+    transition: background-color 0.3s ease;
 }
