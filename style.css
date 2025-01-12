@@ -227,7 +227,6 @@ body{
     border-collapse: collapse;
     border: 1px solid #cccccc; /* টেবিলের চারপাশে বর্ডার */
     margin: 7px 12px;
-    /* justify-content: center; */
     align-items: center;
   }
   
@@ -256,3 +255,145 @@ body{
     background: #c6e4d6;
   }
 
+
+.Recent {
+    margin: 35px 0px;
+    font-size: 40px;
+    font-family: bold;
+    color: #0E0E0E;
+}
+.Recent p {
+    margin: 12px 0px;
+    font-size: 16px;
+}
+
+.img-div {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 8px;
+    gap: 31px;
+    margin-top: 31px;
+}
+
+.img-div img {
+    height: 306;
+    width: 408;
+    border-radius: 24px;
+}
+
+.img-div h2 {
+    font-size: 32px;
+    font-family: bold;
+    margin-bottom: 15px;
+}
+
+.img-div button {
+    padding: 10px 20px;
+    background-color: #006A50;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.imag-div div, button:hover{
+    background-color: #09a15dcb;
+    transition: background-color 0.3s ease;
+}
+
+.imag-div div, p {
+    font-size: 16px;
+    color: #555;
+    padding: 8px;
+}
+
+.Donate {
+    text-align: center;
+}
+
+.Donate h4 {
+    font-size: 40px;
+    font-family: bold;
+    margin: 20px;
+}
+
+.Donate p{
+    font-size: 16px;
+    margin: 7px 64px;
+}
+
+.taka-div {
+    display: flex;
+    gap: 27px;
+    justify-content: center;
+    padding: 9px;
+}
+
+.taka-div div {
+    width: 240px;
+    height: 128px;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 37px;
+    font-family: bold;
+
+}
+
+.box.active {
+    background-color: #C6E4D6;
+}
+
+.taka-div div,.box:hover{
+    background-color:teal;
+   
+}
+.taka-div div,.box-a:hover{
+    background-color: #ff39f57c;
+    transition: all 0.3s;
+}
+
+.taka-div div,.box-b:hover{
+    background-color: #f3ef088e;
+   
+}
+
+.taka-div div,.box-c:hover{
+    background-color: #14cc42;
+   
+}
+
+.taka-div div,.box-d:hover{
+    background-color: #ffffff;
+   
+}
+
+
+.custom-input {
+    text-align: center;
+    width: 1042px;
+    height: 41px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px;
+    box-shadow: 0px 3px 6px #ccc;
+
+}
+
+.btn-done {
+    padding: 10px 20px;
+    background-color: #006A50;
+    border: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn-done:hover{
+    background-color: #006a509c;
+    transition: all 0.3s;
+
+}
