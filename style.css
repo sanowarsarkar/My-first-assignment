@@ -13,9 +13,11 @@
     color: white;
 }
 
-
-
 body{
+    background-color: #F5F5F5;
+}
+
+.main-width{
     width: 90%;
     height: auto;
     margin: auto;
@@ -450,4 +452,27 @@ body{
     padding: 10px;
 }
 
+footer {
+    background-color: white;
+    width: 100%;
+    height: 153px;
+}
+.footer-box {
+    text-align: center;
+    margin: 20px;
+    padding: 1px 111px;
+}
 
+.footer-box h4 {
+    text-align: center;
+    font-size: 32px;
+    font-family: bold;
+    margin: 20px;
+}
+
+.footer-icon {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    gap: 15px;
+}
